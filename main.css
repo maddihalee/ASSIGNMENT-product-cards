@@ -19,6 +19,8 @@ h3 {
   
 }
 
-h2 {
-  font: 'Roboto Mono';
+#soldout {
+  position: fixed;
+  bottom: 10;
+  right: 45;
 }
