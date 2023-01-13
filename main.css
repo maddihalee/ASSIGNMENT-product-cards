@@ -1,0 +1,24 @@
+.all {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+}
+
+body {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h2, 
+h3 {
+  font-size: 20px;
+  
+}
+
+h2 {
+  font: 'Roboto Mono';
+}
