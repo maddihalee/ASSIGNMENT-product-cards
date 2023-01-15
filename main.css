@@ -1,12 +1,18 @@
 .all {
-  width: 1000px;
+  width: 1500px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-basis: 1000px;
+  position: relative;
 }
 
+ 
 .card {
   display: flex;
+  height: 750px;
 }
+
 
 body {
   display: flex;
@@ -23,8 +29,8 @@ h2 {
   font: 'Roboto Mono';
 }
 
-#soldout {
-  position: fixed;
-  bottom: 15;
-  right: 40;
+.soldout {
+  position: absolute;
+  top: 50px;
+  left: -100px;
 }
